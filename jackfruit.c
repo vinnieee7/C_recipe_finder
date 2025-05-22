@@ -130,7 +130,4 @@ int main(void) {
     return 0;
 }
 
-//TO COMPILE : 
-//gcc "D:/C jackfruit/jackfruit.c" "D:/C jackfruit/cJSON.c" -I"C:/Users/vince/curl/curl-8.13.0_4-win64-mingw/include" -L"C:/Users/vince/curl/curl-8.13.0_4-win64-mingw/lib" -lcurl -o jackfruit.exe
-//TO RUN :
-//.\jackfruit.exe
+
