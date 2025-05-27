@@ -78,7 +78,8 @@ int main(void) {
             "https://api.api-ninjas.com/v1/recipe?query=%s&limit=1", encoded_keyword);
 
         struct curl_slist *headers = NULL;
-        headers = curl_slist_append(headers, "X-Api-Key: 6SqGaszkTmuPBPDaSyA7tg==oJpDBpYMih9GuD0P");
+        headers = curl_slist_append(headers, "X-Api-Key: YOUR_api_KEY");
+        
 
         curl_easy_setopt(curl, CURLOPT_URL, url);
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_callback);
